@@ -15,15 +15,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Groupon Parameters Deals Deal Adds. Format
-  description: Parameters deals deal adds. format.
+- name: Groupon Get Deals Deal Adds. Format
+  description: Returns the lists of all the discussion posts for the specified deal.
   image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
   humanURL: http://www.groupon.com/
   baseURL: https://api.groupon.com//
   tags: Deals
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/deals-deal-id-posts-format-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/deals-deal-id-posts-format-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/legacy/groupon.json
