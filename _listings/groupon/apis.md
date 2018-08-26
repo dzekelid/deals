@@ -1,34 +1,27 @@
 ---
 name: Groupon
+x-slug: groupon
 description: Register for a Groupon API key (client_id) to develop your own Groupon
   applications. Now, you can put all those great ideas for Groupon improvements, extensions,
   and multiple-platform interfaces to work.
 image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Coupon
-- Coupon
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Deals
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Groupon Get Deals Deal Adds. Format
-  description: Returns the lists of all the discussion posts for the specified deal.
-  image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
-  humanURL: http://www.groupon.com/
-  baseURL: https://api.groupon.com//
-  tags: Deals
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/deals-deal-id-posts-format-get.md
+apis: []
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/groupon.json
 - type: x-affiliate
   url: https://sites.google.com/site/grouponapiv2/api-usage/commission-junction-link-guide
+- type: x-api-gallery
+  url: http://graphhopper.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://groupon.stack.network
 - type: x-branding
   url: http://www.groupon.com/pages/api-branding-requirements
 - type: x-developer
@@ -43,6 +36,8 @@ x-common:
   url: http://www.groupon.com/pages/api-terms-of-use
 - type: x-website
   url: http://www.groupon.com/
+- type: x-website
+  url: http://groupon.com
 include: []
 maintainers:
 - FN: Kin Lane
