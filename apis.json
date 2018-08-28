@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Deals",
+	"description": "This is a repository of deals APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/deals.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://deals.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sqoot",
+			"x-api-slug": "sqoot",
+			"description": "We power local deals in the things you use (web, mobile, desktop, etc). We help developers make money & advertisers gain distribution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/942-sqoot.jpg",
+			"humanURL": "https://www.sqoot.com/",
+			"baseURL": "https:///",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/sqoot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sidebuy",
+			"x-api-slug": "sidebuy",
+			"description": "Sidebuy is a data-driven influencer marketing platform that matches brands with relevant influencers who create original branded content and amplify its outreach through their engaged audiences. Sidebuy intelligently tracks, measures and reports the pe...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1150-sidebuy.jpg",
+			"humanURL": "http://sidebuy.com/api",
+			"baseURL": "https:///",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/sidebuy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Moblico",
+			"x-api-slug": "moblico",
+			"description": "There are now more internet connected devices in the US than there are Americans. With over 2 million applications available for download to those devices, it is increasingly challenging to get your application noticed. But its not just about getting ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1583-moblico.jpg",
+			"humanURL": "http://moblico.com",
+			"baseURL": "https:///",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/moblico/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Groupon",
+			"x-api-slug": "groupon",
+			"description": "Register for a Groupon API key (client_id) to develop your own Groupon applications. Now, you can put all those great ideas for Groupon improvements, extensions, and multiple-platform interfaces to work.",
+			"image": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png",
+			"humanURL": "http://www.groupon.com/",
+			"baseURL": "https://api.groupon.com//",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Deals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Deals",
+	"include": [
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Sqoot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/sqoot/apis.yaml"
+		},
+		{
+			"name": "Sidebuy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/sidebuy/apis.yaml"
+		},
+		{
+			"name": "Moblico",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/moblico/apis.yaml"
+		},
+		{
+			"name": "Groupon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/groupon/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deals/master/_listings/google-doubleclick/apis.yaml"
+		}
+	]
+}
